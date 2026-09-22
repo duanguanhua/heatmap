@@ -1,0 +1,14 @@
+{
+  "name": "etf-heatmap-proxy",
+  "version": "1.0.0",
+  "description": "ETF 热力图可选的本地数据代理（Node.js + Playwright）",
+  "main": "proxy-server.js",
+  "scripts": {
+    "start": "node proxy-server.js"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  },
+  "private": true,
+  "license": "MIT"
+}
